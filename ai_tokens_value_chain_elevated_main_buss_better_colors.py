@@ -142,6 +142,315 @@ ai_data_center_graph = {
     "Sensors": ["Semiconductors", "Electronics", "Software"],
 }
 
+ai_data_center_companies = {
+    "AI Data Center": [
+        {"name": "Equinix", "market_cap": 105.2},
+        {"name": "Digital Realty", "market_cap": 67.1},
+        {"name": "Microsoft", "market_cap": 3097.4},
+        {"name": "Amazon", "market_cap": 2856.7},
+    ],
+    "AI Racks": [
+        {"name": "Vertiv", "market_cap": 144.3},
+        {"name": "Schneider Electric", "market_cap": 159.0},
+        {"name": "Super Micro Computer", "market_cap": 21.5},
+    ],
+    "Grid Infrastructure": [
+        {"name": "GE Vernova", "market_cap": 287.8},
+        {"name": "Hitachi Energy", "market_cap": 75.0},
+        {"name": "Siemens Energy", "market_cap": 100.0},
+        {"name": "ABB", "market_cap": 129.0},
+    ],
+    "Cooling Systems": [
+        {"name": "Vertiv", "market_cap": 144.3},
+        {"name": "Trane Technologies", "market_cap": 105.2},
+        {"name": "Carrier Global", "market_cap": 54.8},
+        {"name": "Johnson Controls", "market_cap": 87.0},
+    ],
+    "Optical Networking": [
+        {"name": "Coherent", "market_cap": 73.9},
+        {"name": "Ciena", "market_cap": 82.6},
+        {"name": "Arista Networks", "market_cap": 182.9},
+        {"name": "Cisco", "market_cap": 467.8},
+    ],
+    "Physical Building": [
+        {"name": "Vinci", "market_cap": 72.0},
+        {"name": "Fluor", "market_cap": 6.3},
+        {"name": "AECOM", "market_cap": 9.6},
+    ],
+    "Storage Systems": [
+        {"name": "Dell Technologies", "market_cap": 159.1},
+        {"name": "Pure Storage", "market_cap": 23.4},
+        {"name": "NetApp", "market_cap": 24.3},
+    ],
+    "Software Stack": [
+        {"name": "NVIDIA", "market_cap": 5558.9},
+        {"name": "Microsoft", "market_cap": 3097.4},
+        {"name": "Oracle", "market_cap": 561.3},
+        {"name": "Red Hat", "market_cap": 285.0},
+    ],
+    "AI GPU": [
+        {"name": "NVIDIA", "market_cap": 5558.9},
+        {"name": "AMD", "market_cap": 713.7},
+    ],
+    "GPU Dies": [
+        {"name": "TSMC", "market_cap": 1300.0},
+        {"name": "Samsung Electronics", "market_cap": 320.0},
+    ],
+    "HBM": [
+        {"name": "SK hynix", "market_cap": 190.0},
+        {"name": "Micron", "market_cap": 839.8},
+        {"name": "Samsung Electronics", "market_cap": 320.0},
+    ],
+    "CoWoS Packaging": [
+        {"name": "TSMC", "market_cap": 1300.0},
+        {"name": "ASE Technology", "market_cap": 26.0},
+        {"name": "Amkor", "market_cap": 6.0},
+    ],
+    "Advanced Substrates": [
+        {"name": "Ibiden", "market_cap": 5.5},
+        {"name": "Shinko Electric", "market_cap": 4.8},
+        {"name": "Unimicron", "market_cap": 8.0},
+    ],
+    "Interposers": [
+        {"name": "TSMC", "market_cap": 1300.0},
+    ],
+    "Micro-Bumps": [
+        {"name": "ASE Technology", "market_cap": 26.0},
+        {"name": "Amkor", "market_cap": 6.0},
+    ],
+    "Bonding Equipment": [
+        {"name": "BE Semiconductor", "market_cap": 11.0},
+        {"name": "ASMPT", "market_cap": 4.0},
+        {"name": "Kulicke and Soffa", "market_cap": 2.5},
+    ],
+    "DRAM Dies": [
+        {"name": "SK hynix", "market_cap": 190.0},
+        {"name": "Micron", "market_cap": 839.8},
+        {"name": "Samsung Electronics", "market_cap": 320.0},
+    ],
+    "TSV Stacking": [
+        {"name": "SK hynix", "market_cap": 190.0},
+        {"name": "TSMC", "market_cap": 1300.0},
+    ],
+    "Silicon Interposer": [
+        {"name": "TSMC", "market_cap": 1300.0},
+    ],
+    "Advanced Bonding": [
+        {"name": "BE Semiconductor", "market_cap": 11.0},
+        {"name": "TSMC", "market_cap": 1300.0},
+    ],
+    "EUV Lithography": [
+        {"name": "ASML", "market_cap": 414.0},
+    ],
+    "EUV Machines": [
+        {"name": "ASML", "market_cap": 414.0},
+    ],
+    "Photomasks": [
+        {"name": "Photronics", "market_cap": 1.6},
+        {"name": "Toppan", "market_cap": 9.0},
+    ],
+    "Photoresists": [
+        {"name": "Tokyo Ohka Kogyo", "market_cap": 9.0},
+        {"name": "JSR", "market_cap": None},
+        {"name": "Shin-Etsu Chemical", "market_cap": 90.0},
+    ],
+    "Fab Equipment": [
+        {"name": "Applied Materials", "market_cap": 345.6},
+        {"name": "Lam Research", "market_cap": 355.0},
+        {"name": "KLA", "market_cap": 239.7},
+    ],
+    "Lithography Tools": [
+        {"name": "ASML", "market_cap": 414.0},
+    ],
+    "Etching Tools": [
+        {"name": "Lam Research", "market_cap": 355.0},
+        {"name": "Tokyo Electron", "market_cap": 115.0},
+    ],
+    "Deposition Tools": [
+        {"name": "Applied Materials", "market_cap": 345.6},
+        {"name": "Tokyo Electron", "market_cap": 115.0},
+    ],
+    "Metrology Tools": [
+        {"name": "KLA", "market_cap": 239.7},
+    ],
+    "Fab Infrastructure": [
+        {"name": "MKS Instruments", "market_cap": 8.0},
+        {"name": "Entegris", "market_cap": 17.0},
+    ],
+    "Silicon Wafers": [
+        {"name": "Shin-Etsu Chemical", "market_cap": 90.0},
+        {"name": "SUMCO", "market_cap": 5.0},
+        {"name": "GlobalWafers", "market_cap": 6.0},
+    ],
+    "Wafers": [
+        {"name": "Shin-Etsu Chemical", "market_cap": 90.0},
+        {"name": "SUMCO", "market_cap": 5.0},
+    ],
+    "Polysilicon": [
+        {"name": "Wacker Chemie", "market_cap": 5.0},
+        {"name": "OCI Holdings", "market_cap": 1.0},
+    ],
+    "Advanced Chemicals": [
+        {"name": "Entegris", "market_cap": 17.0},
+        {"name": "DuPont", "market_cap": 35.0},
+        {"name": "Merck KGaA", "market_cap": 68.0},
+    ],
+    "Specialty Chemicals": [
+        {"name": "DuPont", "market_cap": 35.0},
+        {"name": "BASF", "market_cap": 46.0},
+        {"name": "Air Products", "market_cap": 62.0},
+    ],
+    "Industrial Gases": [
+        {"name": "Linde", "market_cap": 220.0},
+        {"name": "Air Liquide", "market_cap": 100.0},
+        {"name": "Air Products", "market_cap": 62.0},
+    ],
+    "Ultra Pure Water": [
+        {"name": "Veolia", "market_cap": 27.0},
+        {"name": "Kurita Water", "market_cap": 4.0},
+    ],
+    "Network Switches": [
+        {"name": "Arista Networks", "market_cap": 182.9},
+        {"name": "Cisco", "market_cap": 467.8},
+        {"name": "Juniper Networks", "market_cap": 13.0},
+    ],
+    "Switch ASICs": [
+        {"name": "Broadcom", "market_cap": 2076.9},
+        {"name": "Marvell", "market_cap": 71.0},
+    ],
+    "Optical Transceivers": [
+        {"name": "Coherent", "market_cap": 73.9},
+        {"name": "Lumentum", "market_cap": 10.0},
+        {"name": "Fabrinet", "market_cap": 14.0},
+    ],
+    "Photonic Chips": [
+        {"name": "Intel", "market_cap": 130.0},
+        {"name": "Marvell", "market_cap": 71.0},
+    ],
+    "Optical Fiber": [
+        {"name": "Corning", "market_cap": 44.0},
+        {"name": "Prysmian", "market_cap": 20.0},
+    ],
+    "Networking Cards": [
+        {"name": "NVIDIA", "market_cap": 5558.9},
+        {"name": "Broadcom", "market_cap": 2076.9},
+    ],
+    "ASICs": [
+        {"name": "Broadcom", "market_cap": 2076.9},
+        {"name": "Marvell", "market_cap": 71.0},
+    ],
+    "Power Delivery": [
+        {"name": "Delta Electronics", "market_cap": 95.0},
+        {"name": "Vertiv", "market_cap": 144.3},
+    ],
+    "Power Modules": [
+        {"name": "Infineon", "market_cap": 55.0},
+        {"name": "onsemi", "market_cap": 20.0},
+        {"name": "Monolithic Power Systems", "market_cap": 40.0},
+    ],
+    "VRM": [
+        {"name": "Monolithic Power Systems", "market_cap": 40.0},
+        {"name": "Infineon", "market_cap": 55.0},
+    ],
+    "Power Supplies": [
+        {"name": "Delta Electronics", "market_cap": 95.0},
+        {"name": "Lite-On", "market_cap": 4.0},
+    ],
+    "Capacitors": [
+        {"name": "Murata", "market_cap": 40.0},
+        {"name": "TDK", "market_cap": 25.0},
+    ],
+    "Transformers": [
+        {"name": "Hitachi Energy", "market_cap": 75.0},
+        {"name": "GE Vernova", "market_cap": 287.8},
+        {"name": "Siemens Energy", "market_cap": 100.0},
+    ],
+    "Backup Batteries": [
+        {"name": "CATL", "market_cap": 170.0},
+        {"name": "LG Energy Solution", "market_cap": 55.0},
+        {"name": "Panasonic", "market_cap": 24.0},
+    ],
+    "Pumps": [
+        {"name": "Xylem", "market_cap": 34.0},
+        {"name": "Grundfos", "market_cap": None},
+    ],
+    "Heat Exchangers": [
+        {"name": "Alfa Laval", "market_cap": 17.0},
+        {"name": "Modine", "market_cap": 8.0},
+    ],
+    "Cooling Towers": [
+        {"name": "SPX Technologies", "market_cap": 10.0},
+    ],
+    "Liquid Coolant": [
+        {"name": "Chemours", "market_cap": 1.0},
+        {"name": "Dow", "market_cap": 35.0},
+    ],
+    "Water Infrastructure": [
+        {"name": "Xylem", "market_cap": 34.0},
+        {"name": "Veolia", "market_cap": 27.0},
+    ],
+    "NAND Flash": [
+        {"name": "Samsung Electronics", "market_cap": 320.0},
+        {"name": "Kioxia", "market_cap": 11.0},
+        {"name": "Western Digital", "market_cap": 39.0},
+    ],
+    "Hard Drives": [
+        {"name": "Seagate", "market_cap": 26.0},
+        {"name": "Western Digital", "market_cap": 39.0},
+    ],
+    "Storage Controllers": [
+        {"name": "Marvell", "market_cap": 71.0},
+        {"name": "Broadcom", "market_cap": 2076.9},
+    ],
+    "Copper": [
+        {"name": "Freeport-McMoRan", "market_cap": 58.0},
+        {"name": "Southern Copper", "market_cap": 77.0},
+    ],
+    "Steel": [
+        {"name": "Nucor", "market_cap": 30.0},
+        {"name": "ArcelorMittal", "market_cap": 24.0},
+    ],
+    "Concrete": [
+        {"name": "Holcim", "market_cap": 55.0},
+        {"name": "Heidelberg Materials", "market_cap": 42.0},
+    ],
+    "Cement": [
+        {"name": "Holcim", "market_cap": 55.0},
+        {"name": "Heidelberg Materials", "market_cap": 42.0},
+    ],
+    "Rare Earth Magnets": [
+        {"name": "MP Materials", "market_cap": 10.0},
+        {"name": "Lynas Rare Earths", "market_cap": 5.0},
+    ],
+    "High Purity Glass": [
+        {"name": "Corning", "market_cap": 44.0},
+    ],
+    "CUDA / AI Runtime": [
+        {"name": "NVIDIA", "market_cap": 5558.9},
+    ],
+    "Orchestration": [
+        {"name": "Red Hat", "market_cap": 285.0},
+        {"name": "VMware", "market_cap": 2076.9},
+    ],
+    "Distributed Training": [
+        {"name": "NVIDIA", "market_cap": 5558.9},
+        {"name": "Microsoft", "market_cap": 3097.4},
+    ],
+    "Inference Stack": [
+        {"name": "NVIDIA", "market_cap": 5558.9},
+        {"name": "Snowflake", "market_cap": 75.0},
+    ],
+}
+
+from pyvis.network import Network
+import streamlit as st
+import streamlit.components.v1 as components
+import pandas as pd
+import math
+
+st.set_page_config(page_title="AI Data Center Graph", layout="wide")
+st.title("AI Data Center Value Chain Graph")
+
 
 all_nodes = sorted(
     set(ai_data_center_graph.keys()) |
@@ -166,7 +475,6 @@ def get_all_dependencies(node, graph, memo=None, visiting=None):
         return set()
 
     visiting.add(node)
-
     deps = set(graph[node])
 
     for dep in graph[node]:
@@ -214,7 +522,7 @@ group_colors = {
     "03 Medium Complexity": "#FB923C",
     "04 High Complexity": "#EF4444",
     "05 Very High Complexity": "#A855F7",
-    "06 Endgame Complexity": "#FFFFFF"
+    "06 Endgame Complexity": "#FFFFFF",
 }
 
 
@@ -251,7 +559,7 @@ for group in group_order:
     for i, node in enumerate(group_nodes):
         positions[node] = {
             "x": i * x_gap,
-            "y": group_y[group]
+            "y": group_y[group],
         }
 
 
@@ -262,12 +570,21 @@ net = Network(
     notebook=False,
     bgcolor="#111111",
     font_color="white",
-    cdn_resources="in_line"
+    cdn_resources="in_line",
 )
 
 net.toggle_physics(False)
 
 edge_hidden_color = "rgba(160,160,160,0.03)"
+
+
+def company_node_size(market_cap):
+    if market_cap is None:
+        market_cap = 1000
+
+    market_cap = max(float(market_cap), 1)
+
+    return 18 + math.sqrt(market_cap) * 0.8
 
 
 for node in bus_nodes:
@@ -292,11 +609,12 @@ for node in bus_nodes:
         physics=False,
         shape="box",
         font={"color": "white", "size": 18},
-        margin=10
+        margin=10,
     )
 
 
 recipe_y_offset = 95
+company_x_offset = 120
 
 for product, components_list in ai_data_center_graph.items():
     if product not in positions:
@@ -305,44 +623,65 @@ for product, components_list in ai_data_center_graph.items():
     product_x = positions[product]["x"]
     product_y = positions[product]["y"]
 
-    recipe_id = f"RECIPE::{product}"
-    recipe_y = product_y + recipe_y_offset
+    companies = ai_data_center_companies.get(product, [])
 
-    net.add_node(
-        recipe_id,
-        label=f"make\n{product}",
-        title=f"Recipe creates: {product}<br>Inputs: {', '.join(components_list)}",
-        color="#222222",
-        borderWidth=2,
-        shape="diamond",
-        x=product_x,
-        y=recipe_y,
-        fixed=True,
-        physics=False,
-        font={"color": "#FFFFFF", "size": 14}
-    )
+    if not companies:
+        companies = [{"name": f"make {product}", "market_cap": 1000}]
 
-    for component in components_list:
-        if component not in positions:
-            continue
+    for company_idx, company_data in enumerate(companies):
+        company = company_data["name"]
+        market_cap = company_data.get("market_cap", 1000)
 
-        net.add_edge(
-            component,
+        recipe_id = f"RECIPE::{product}::{company}"
+
+        offset = (company_idx - (len(companies) - 1) / 2) * company_x_offset
+
+        recipe_x = product_x + offset
+        recipe_y = product_y + recipe_y_offset
+
+        size = company_node_size(market_cap)
+
+        net.add_node(
             recipe_id,
-            title=f"{component} is input for {product}",
-            color=edge_hidden_color,
-            width=1,
-            arrows="to"
+            label=company,
+            title=(
+                f"Company: {company}<br>"
+                f"Produces: {product}<br>"
+                f"Market cap: {market_cap}<br>"
+                f"Inputs: {', '.join(components_list)}"
+            ),
+            color="#222222",
+            borderWidth=2,
+            shape="diamond",
+            size=size,
+            x=recipe_x,
+            y=recipe_y,
+            fixed=True,
+            physics=False,
+            font={"color": "#FFFFFF", "size": 14},
         )
 
-    net.add_edge(
-        recipe_id,
-        product,
-        title=f"recipe outputs {product}",
-        color=edge_hidden_color,
-        width=1,
-        arrows="to"
-    )
+        for component in components_list:
+            if component not in positions:
+                continue
+
+            net.add_edge(
+                component,
+                recipe_id,
+                title=f"{component} is input for {product} via {company}",
+                color=edge_hidden_color,
+                width=1,
+                arrows="to",
+            )
+
+        net.add_edge(
+            recipe_id,
+            product,
+            title=f"{company} produces {product}",
+            color=edge_hidden_color,
+            width=1,
+            arrows="to",
+        )
 
 
 net.set_options("""
@@ -470,31 +809,36 @@ html = html.replace("</body>", highlight_js + "\n</body>")
 components.html(html, height=1600, width=None, scrolling=True)
 
 
-# =========================
-# TABELA ELEMENTÓW
-# =========================
-
 used_by_count = {node: 0 for node in all_nodes}
 
 for product, components_list in ai_data_center_graph.items():
     for component in components_list:
         used_by_count[component] = used_by_count.get(component, 0) + 1
 
+
 table_rows = []
 
 for node in all_nodes:
+    companies = ai_data_center_companies.get(node, [])
+    company_names = [company["name"] for company in companies]
+    total_market_cap = sum(company.get("market_cap", 0) for company in companies)
+
     table_rows.append({
         "lvl": classify_node(node),
         "element": node,
         "materials_to_create": complexity_levels[node],
         "used_in_products_count": used_by_count.get(node, 0),
+        "companies_count": len(companies),
+        "total_company_market_cap": total_market_cap,
+        "companies": ", ".join(company_names),
     })
+
 
 df_elements = pd.DataFrame(table_rows)
 
 df_elements = df_elements.sort_values(
     by=["materials_to_create", "used_in_products_count"],
-    ascending=[False, False]
+    ascending=[False, False],
 ).reset_index(drop=True)
 
 st.subheader("Tabela elementów value chain")
@@ -502,5 +846,5 @@ st.subheader("Tabela elementów value chain")
 st.dataframe(
     df_elements,
     use_container_width=True,
-    height=900
+    height=900,
 )
