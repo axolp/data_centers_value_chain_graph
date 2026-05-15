@@ -489,4 +489,4 @@ html = html.replace("</body>", highlight_js + "\n</body>")
 #webbrowser.open("ai_data_center_factorio_HIGHLIGHT_BUS.html")
 
 import streamlit.components.v1 as components
-components.html(html, height=1000, width=None, scrolling=True)
+components.html(html, height=1600, width=None, scrolling=True)
