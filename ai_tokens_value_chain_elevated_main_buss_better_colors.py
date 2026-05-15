@@ -1,5 +1,14 @@
+#from pyvis.network import Network
+#import webbrowser
+#import streamlit as st
+
 from pyvis.network import Network
-import webbrowser
+import streamlit as st
+import streamlit.components.v1 as components
+
+st.set_page_config(page_title="AI Data Center Graph", layout="wide")
+st.title("AI Data Center Value Chain Graph")
+st.write("App loaded")
 
 ai_data_center_graph = {
     "AI Tokens": ["AI Data Center"],
@@ -474,7 +483,10 @@ resetStyles();
 
 html = html.replace("</body>", highlight_js + "\n</body>")
 
-with open("ai_data_center_factorio_HIGHLIGHT_BUS.html", "w", encoding="utf-8") as f:
-    f.write(html)
+#with open("ai_data_center_factorio_HIGHLIGHT_BUS.html", "w", encoding="utf-8") as f:
+    #f.write(html)
 
-webbrowser.open("ai_data_center_factorio_HIGHLIGHT_BUS.html")
+#webbrowser.open("ai_data_center_factorio_HIGHLIGHT_BUS.html")
+
+import streamlit.components.v1 as components
+components.html(html, height=1000, width=None, scrolling=True)
